@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="gridstyle.css">
+</head>
+<body>
+    <div class="gridlayout">
+        <img src="image/header.jpg" alt="header">
+    </div>
+    
+    <nav class="text1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+        </ul>
+    </nav>
+
+<div class="gridlayout1">
+    <div class="boxleft">
+        <div class="text2">
+            <div class="gridtext2">
+            <h1>ยินดีต้อนรับสู่ร้านของเรา</h1>
+            <h3>เรามีสินค้าหลากหลายและราคาพิเศษสำหรับคุณ</h3>
+            <img src="image/shop.jpg">
+        </div>    
+    </div>   
+
+    <div class="text3">
+        <div class="gridtext3">
+            <h2>ร้านอยู่จังหวัดปราจีนบุรี</h2>
+            <h3>การเดินทางสะดวกเข้าได้2ทาง</h3>
+            <img src="image/map.png">
+        </div>
+    </div>
+</div>
+
+    <div class="text4">
+        <div class="gridtext4">
+            <h3>สมัครสมาชิก</h3>        
+
+         <form onsubmit="return false;">
+            <h4>ชื่อ</h4>
+            <input type="text" placeholder="ชื่อจริง">
+
+            <h4>นามสกุล</h4>
+            <input type="text" placeholder="นามสกุล">
+
+            <h4>อีเมล</h4>
+            <input type="email" placeholder="example@domain.com">
+
+            <h4>รหัสผ่าน</h4>
+            <input type="password" placeholder="อย่างน้อย 8 ตัวอักษร">
+
+            <h4>ยืนยันรหัสผ่าน</h4>
+            <input type="password" placeholder="ยืนยันรหัสผ่าน">
+
+            <h4>เบอร์โทรศัพท์</h4>
+            <input type="tel" placeholder="083-xxx-xxxx">
+
+            <h4>เพศ</h4>
+                <div class="line">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">ชาย</label>
+                </div>
+
+                <div class="line">
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">หญิง</label>
+                </div>
+
+                <div class="line">
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">ไม่ระบุ</label>
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" id="news"> <label for="news">รับข่าวสาร</label>
+                    <input type="checkbox" id="promo"> <label for="promo">โปรโมชั่น</label>
+                    <input type="checkbox" id="event"> <label for="event">กิจกรรม</label>
+                </div>
+
+            <h4>ประเภทสมาชิก</h4>
+                <select>
+                    <option>ทั่วไป</option>
+                    <option>สมาชิกพิเศษ</option>
+                    <option>VIP</option>
+                </select>
+
+                <div class="terms">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">ยอมรับข้อกำหนดและเงื่อนไขของบริษัท</label>
+                </div>
+
+                <button type="submit">สมัครสมาชิก</button>
+                <div class="data">
+                    <h3>เราจะเก็บข้อมูลของคุณเป็นความลับ</h3>
+                </div>
+         </form>
+        </div>
+    </div>
+</div> 
+
+    <footer class="foot">
+        <img src="image/footer.jpg">
+    </footer>
+</body>
+</html>
